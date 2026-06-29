@@ -1,0 +1,99 @@
+Python Variables & Data Types - Short Notes
+===================================================================================================================
+1. Variable
+===================================================================================================================
+
+
+-   A variable is used to store data.
+-   No need to declare the data type.
+
+Syntax:
+
+    variable_name = value
+
+Example:
+
+    name = "Sam"
+    age = 20
+===================================================================================================================
+Variable Naming Rules
+===================================================================================================================
+
+
+-   Must start with a letter or underscore (_)
+-   Cannot start with a number
+-   Cannot contain spaces
+-   Case Sensitive (age and Age are different)
+
+Valid:
+
+    name
+    _age
+    student1
+
+Invalid:
+
+    1name
+    my name
+    class
+===================================================================================================================
+2. Data Types
+====================================================================================================================
+int......
+
+Stores whole numbers.
+
+Example:
+
+    age = 20
+
+float.........
+
+Stores decimal numbers.
+
+Example:
+
+    height = 5.8
+
+str.......
+
+Stores text.
+
+Example:
+
+    name = "Sam"
+
+bool..........
+
+Stores True or False.
+
+Example:
+
+    is_student = True
+
+type() Function............
+
+Returns the data type of a variable.
+
+Example:
+
+    print(type(age))
+===================================================================================================================
+Multiple Assignment........
+===================================================================================================================
+    a, b, c = 10, 20, 30
+
+Same Value to Multiple Variables
+
+    x = y = z = 100
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+-   Variable -> Stores data
+-   int -> Whole number
+-   float -> Decimal number
+-   str -> Text/String
+-   bool -> True or False
+-   type() -> Finds data type

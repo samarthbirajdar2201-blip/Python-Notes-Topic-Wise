@@ -1,0 +1,159 @@
+Python Loops - Short Notes
+===================================================================================================================
+1. What is a Loop?
+===================================================================================================================
+
+- A loop is used to execute a block of code repeatedly.
+- It reduces code duplication and saves time.
+
+===================================================================================================================
+2. for Loop
+===================================================================================================================
+
+- Used when the number of iterations is known.
+
+Syntax:
+
+    for variable in sequence:
+        # code
+
+Example:
+
+    for i in range(1, 6):
+        print(i)
+
+===================================================================================================================
+3. while Loop
+===================================================================================================================
+
+- Used when the number of iterations is not known.
+- The loop runs until the condition becomes False.
+
+Syntax:
+
+    while condition:
+        # code
+
+Example:
+
+    count = 1
+
+    while count <= 5:
+        print(count)
+        count += 1
+
+===================================================================================================================
+4. Nested Loop
+===================================================================================================================
+
+- A loop inside another loop.
+- Mostly used for patterns and matrices.
+
+Syntax:
+
+    for i in range(3):
+        for j in range(3):
+            print("*", end=" ")
+
+===================================================================================================================
+5. break Statement
+===================================================================================================================
+
+- Used to immediately stop the loop.
+
+Example:
+
+    for i in range(1, 11):
+        if i == 5:
+            break
+        print(i)
+
+===================================================================================================================
+6. continue Statement
+===================================================================================================================
+
+- Skips the current iteration and moves to the next iteration.
+
+Example:
+
+    for i in range(1, 11):
+        if i == 5:
+            continue
+        print(i)
+
+===================================================================================================================
+7. pass Statement
+===================================================================================================================
+
+- Does nothing.
+- Used as a placeholder for future code.
+
+Example:
+
+    for i in range(5):
+        if i == 3:
+            pass
+        print(i)
+
+===================================================================================================================
+8. range() Function
+===================================================================================================================
+
+- Generates a sequence of numbers.
+
+Syntax:
+
+    range(stop)
+    range(start, stop)
+    range(start, stop, step)
+
+Example:
+
+    range(5)
+    range(1, 6)
+    range(2, 11, 2)
+
+===================================================================================================================
+9. for...else
+===================================================================================================================
+
+- The else block executes after the loop finishes normally.
+- If break is used, the else block will not execute.
+
+Example:
+
+    for i in range(5):
+        print(i)
+    else:
+        print("Loop Finished")
+
+===================================================================================================================
+10. while...else
+===================================================================================================================
+
+- The else block executes when the while loop ends normally.
+
+Example:
+
+    count = 1
+
+    while count <= 5:
+        print(count)
+        count += 1
+    else:
+        print("Loop Finished")
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- Loop -> Repeats a block of code
+- for Loop -> Fixed number of iterations
+- while Loop -> Runs until condition becomes False
+- Nested Loop -> Loop inside another loop
+- break -> Stops the loop
+- continue -> Skips current iteration
+- pass -> Placeholder statement
+- range() -> Generates numbers
+- for...else -> else runs if loop ends normally
+- while...else -> else runs if loop ends normally

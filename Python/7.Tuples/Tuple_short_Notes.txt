@@ -1,0 +1,166 @@
+Python Tuples - Short Notes
+===================================================================================================================
+1. What is a Tuple?
+===================================================================================================================
+
+- A Tuple is used to store multiple values in a single variable.
+- Tuples are Ordered and Immutable (cannot be changed).
+- Tuples allow duplicate values.
+
+Example:
+
+    fruits = ("Apple", "Mango", "Banana")
+
+===================================================================================================================
+2. Creating a Tuple
+===================================================================================================================
+
+Example:
+
+    numbers = (10, 20, 30, 40)
+    names = ("Sam", "Rahul", "Amit")
+
+Single Element Tuple:
+
+    num = (10,)
+
+Note:
+- Comma (,) is required for a single element tuple.
+
+===================================================================================================================
+3. Tuple Indexing
+===================================================================================================================
+
+- Index starts from 0.
+- Negative index starts from -1.
+
+Example:
+
+    numbers[0]
+    numbers[2]
+    numbers[-1]
+
+===================================================================================================================
+4. Tuple Slicing
+===================================================================================================================
+
+- Used to access a part of the tuple.
+
+Syntax:
+
+    tuple[start:end]
+
+Example:
+
+    numbers[0:3]
+    numbers[2:]
+    numbers[::-1]
+
+===================================================================================================================
+5. Tuple Operations
+===================================================================================================================
+
++  -> Concatenate Tuples
+*  -> Repeat Tuple
+in -> Check element exists
+not in -> Check element does not exist
+
+Example:
+
+    t1 + t2
+    t1 * 2
+    20 in numbers
+
+===================================================================================================================
+6. Common Tuple Methods
+===================================================================================================================
+
+count() -> Count occurrences
+index() -> Find position
+
+Example:
+
+    numbers.count(20)
+    numbers.index(30)
+
+===================================================================================================================
+7. Built-in Functions
+===================================================================================================================
+
+len() -> Total elements
+max() -> Largest value
+min() -> Smallest value
+sum() -> Sum of elements
+
+Example:
+
+    len(numbers)
+    max(numbers)
+    min(numbers)
+    sum(numbers)
+
+===================================================================================================================
+8. Traversing a Tuple
+===================================================================================================================
+
+- Access each element using a loop.
+
+Example:
+
+    for num in numbers:
+        print(num)
+
+===================================================================================================================
+9. Nested Tuple
+===================================================================================================================
+
+- A tuple inside another tuple.
+
+Example:
+
+    matrix = (
+        (1, 2),
+        (3, 4)
+    )
+
+===================================================================================================================
+10. Tuple Packing and Unpacking
+===================================================================================================================
+
+Packing:
+
+    student = ("Sam", 21, "IT")
+
+Unpacking:
+
+    name, age, branch = student
+
+===================================================================================================================
+Important Programs
+===================================================================================================================
+
+- Find Maximum Element
+- Find Minimum Element
+- Find Sum of Tuple
+- Count Occurrences
+- Search Element
+- Traverse Tuple
+- Tuple Unpacking
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- Tuple -> Ordered collection
+- Immutable -> Cannot be modified
+- Duplicate values -> Allowed
+- Index starts from 0
+- count() -> Count occurrences
+- index() -> Find position
+- len() -> Number of elements
+- max() -> Largest element
+- min() -> Smallest element
+- sum() -> Sum of elements
+- Packing -> Store multiple values in one tuple
+- Unpacking -> Assign tuple values to variables
+- Single element tuple requires a comma (,)

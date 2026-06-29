@@ -1,0 +1,118 @@
+Python Built-in Functions - Short Notes
+===================================================================================================================
+1. What are Built-in Functions?
+===================================================================================================================
+
+- Built-in Functions are predefined functions provided by Python.
+- They can be used directly without importing any module.
+
+Example:
+
+    print("Hello")
+    len("Python")
+
+===================================================================================================================
+2. Type Conversion Functions
+===================================================================================================================
+
+int()      -> Convert to Integer
+float()    -> Convert to Float
+str()      -> Convert to String
+bool()     -> Convert to Boolean
+complex()  -> Convert to Complex Number
+
+Example:
+
+    int("10")
+    float("10")
+    str(100)
+
+===================================================================================================================
+3. Mathematical Functions
+===================================================================================================================
+
+max()   -> Largest value
+min()   -> Smallest value
+sum()   -> Sum of elements
+abs()   -> Absolute value
+pow()   -> Power
+round() -> Round number
+
+Example:
+
+    max([10,20,30])
+    pow(2,5)
+
+===================================================================================================================
+4. Sequence Functions
+===================================================================================================================
+
+len()   -> Number of elements
+range() -> Generate numbers
+list()  -> Convert to List
+tuple() -> Convert to Tuple
+set()   -> Convert to Set
+
+===================================================================================================================
+5. String Functions
+===================================================================================================================
+
+chr() -> ASCII to Character
+ord() -> Character to ASCII
+bin() -> Binary
+oct() -> Octal
+hex() -> Hexadecimal
+
+===================================================================================================================
+6. Input & Output Functions
+===================================================================================================================
+
+input() -> Takes input from user
+print() -> Displays output
+
+===================================================================================================================
+7. Sorting Functions
+===================================================================================================================
+
+sorted()   -> Returns sorted list
+reversed() -> Returns reverse iterator
+
+===================================================================================================================
+8. enumerate() and zip()
+===================================================================================================================
+
+enumerate() -> Returns index and value
+zip()       -> Combines multiple iterables
+
+===================================================================================================================
+9. Miscellaneous Functions
+===================================================================================================================
+
+type()       -> Data type
+id()         -> Memory address
+isinstance() -> Check object type
+any()        -> True if any value is True
+all()        -> True if all values are True
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- print() -> Display output
+- input() -> User input
+- len() -> Length
+- max() -> Largest value
+- min() -> Smallest value
+- sum() -> Sum of elements
+- abs() -> Absolute value
+- pow() -> Power
+- round() -> Round number
+- range() -> Generate numbers
+- sorted() -> Sort elements
+- reversed() -> Reverse elements
+- type() -> Data type
+- id() -> Memory address
+- enumerate() -> Index + Value
+- zip() -> Combine iterables
+- chr() -> ASCII to Character
+- ord() -> Character to ASCII

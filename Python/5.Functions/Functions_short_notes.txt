@@ -1,0 +1,184 @@
+Python Functions - Short Notes
+===================================================================================================================
+1. What is a Function?
+===================================================================================================================
+
+- A Function is a reusable block of code.
+- It performs a specific task.
+- Functions help reduce code repetition.
+
+Syntax:
+
+    def function_name():
+        # code
+
+Example:
+
+    def greet():
+        print("Hello")
+
+    greet()
+
+===================================================================================================================
+2. Creating a Function
+===================================================================================================================
+
+- A function is created using the def keyword.
+
+Syntax:
+
+    def function_name():
+        # code
+
+Example:
+
+    def display():
+        print("Welcome")
+
+===================================================================================================================
+3. Calling a Function
+===================================================================================================================
+
+- Calling means executing a function.
+
+Syntax:
+
+    function_name()
+
+Example:
+
+    display()
+
+===================================================================================================================
+4. Parameters and Arguments
+===================================================================================================================
+
+Parameter -> Variable inside the function definition.
+
+Argument -> Value passed while calling the function.
+
+Example:
+
+    def greet(name):
+        print(name)
+
+    greet("Sam")
+
+===================================================================================================================
+5. Return Statement
+===================================================================================================================
+
+- return sends a value back to the caller.
+
+Syntax:
+
+    return value
+
+Example:
+
+    def add(a, b):
+        return a + b
+
+===================================================================================================================
+6. Types of Arguments
+===================================================================================================================
+
+1. Positional Argument
+
+Example:
+
+    greet("Sam")
+
+2. Keyword Argument
+
+Example:
+
+    greet(name="Sam")
+
+===================================================================================================================
+7. Default Arguments
+===================================================================================================================
+
+- Uses a default value if no argument is passed.
+
+Example:
+
+    def greet(name="Guest"):
+        print(name)
+
+===================================================================================================================
+8. Variable Length Arguments
+===================================================================================================================
+
+- Accepts multiple values using *args.
+
+Example:
+
+    def total(*numbers):
+        print(sum(numbers))
+
+===================================================================================================================
+9. Lambda Function
+===================================================================================================================
+
+- Anonymous one-line function.
+
+Syntax:
+
+    lambda arguments : expression
+
+Example:
+
+    square = lambda x: x * x
+
+===================================================================================================================
+10. Recursive Function
+===================================================================================================================
+
+- A function that calls itself.
+
+Example:
+
+    def factorial(n):
+        if n == 1:
+            return 1
+        return n * factorial(n-1)
+
+===================================================================================================================
+Advantages
+===================================================================================================================
+
+- Reusable code
+- Easy to understand
+- Reduces code duplication
+- Makes debugging easier
+
+===================================================================================================================
+Important Programs
+===================================================================================================================
+
+- Addition
+- Factorial
+- Fibonacci
+- Maximum of Two Numbers
+- Even or Odd
+- Prime Number
+- Lambda Function
+- Sum using *args
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- Function -> Reusable block of code
+- def -> Used to create a function
+- Function Call -> Executes the function
+- Parameter -> Variable in function definition
+- Argument -> Value passed to function
+- return -> Returns a value
+- Positional Argument -> Passed by position
+- Keyword Argument -> Passed using parameter name
+- Default Argument -> Uses default value
+- *args -> Accepts multiple arguments
+- Lambda -> Anonymous one-line function
+- Recursive Function -> Function calls itself

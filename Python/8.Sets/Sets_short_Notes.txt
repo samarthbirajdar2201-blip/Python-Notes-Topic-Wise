@@ -1,0 +1,160 @@
+Python Sets - Short Notes
+===================================================================================================================
+1. What is a Set?
+===================================================================================================================
+
+- A Set is used to store multiple unique values in a single variable.
+- Sets are Unordered and Mutable (can be changed).
+- Duplicate values are NOT allowed.
+
+Example:
+
+    numbers = {10, 20, 30, 40}
+
+===================================================================================================================
+2. Creating a Set
+===================================================================================================================
+
+Example:
+
+    fruits = {"Apple", "Mango", "Banana"}
+
+Empty Set:
+
+    numbers = set()
+
+Note:
+- {} creates an empty Dictionary.
+- Use set() to create an empty Set.
+
+===================================================================================================================
+3. Add Elements
+===================================================================================================================
+
+add()    -> Adds a single element.
+update() -> Adds multiple elements.
+
+Example:
+
+    numbers.add(50)
+    numbers.update([60, 70])
+
+===================================================================================================================
+4. Remove Elements
+===================================================================================================================
+
+remove()  -> Removes a specific element.
+discard() -> Removes an element (No Error if not found).
+pop()     -> Removes a random element.
+clear()   -> Removes all elements.
+
+Example:
+
+    numbers.remove(20)
+    numbers.discard(100)
+    numbers.pop()
+    numbers.clear()
+
+===================================================================================================================
+5. Set Operations
+===================================================================================================================
+
+union()                 -> Combines two sets.
+intersection()          -> Common elements.
+difference()            -> Elements in first set only.
+symmetric_difference()  -> Elements except common ones.
+
+Example:
+
+    set1.union(set2)
+    set1.intersection(set2)
+    set1.difference(set2)
+    set1.symmetric_difference(set2)
+
+===================================================================================================================
+6. Common Set Methods
+===================================================================================================================
+
+copy() -> Creates a copy of the set.
+
+Example:
+
+    set2 = set1.copy()
+
+===================================================================================================================
+7. Built-in Functions
+===================================================================================================================
+
+len() -> Total elements
+max() -> Largest value
+min() -> Smallest value
+sum() -> Sum of elements
+
+Example:
+
+    len(numbers)
+    max(numbers)
+    min(numbers)
+    sum(numbers)
+
+===================================================================================================================
+8. Traversing a Set
+===================================================================================================================
+
+- Access each element using a loop.
+
+Example:
+
+    for num in numbers:
+        print(num)
+
+===================================================================================================================
+9. Membership Operators
+===================================================================================================================
+
+in      -> Check element exists.
+not in  -> Check element does not exist.
+
+Example:
+
+    20 in numbers
+    50 not in numbers
+
+===================================================================================================================
+Important Programs
+===================================================================================================================
+
+- Add Element
+- Remove Element
+- Search Element
+- Union of Sets
+- Intersection of Sets
+- Difference of Sets
+- Symmetric Difference
+- Find Maximum Element
+- Find Minimum Element
+- Find Sum of Elements
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- Set -> Collection of unique values
+- Mutable -> Can be modified
+- Unordered -> No fixed index
+- Duplicate values -> Not Allowed
+- add() -> Add one element
+- update() -> Add multiple elements
+- remove() -> Remove element
+- discard() -> Remove without error
+- pop() -> Remove random element
+- clear() -> Remove all elements
+- union() -> Combine sets
+- intersection() -> Common elements
+- difference() -> Different elements
+- symmetric_difference() -> Excluding common elements
+- copy() -> Copy set
+- len() -> Number of elements
+- max() -> Largest element
+- min() -> Smallest element
+- sum() -> Sum of elements

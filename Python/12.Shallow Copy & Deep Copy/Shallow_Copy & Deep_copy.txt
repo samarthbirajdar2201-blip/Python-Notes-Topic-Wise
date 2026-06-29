@@ -1,0 +1,88 @@
+Python Shallow Copy & Deep Copy - Short Notes
+===================================================================================================================
+1. What is Copy?
+===================================================================================================================
+
+- Copy means creating a duplicate of an object.
+- Python provides two types of copy:
+    1. Shallow Copy
+    2. Deep Copy
+
+===================================================================================================================
+2. Shallow Copy
+===================================================================================================================
+
+- Shallow Copy creates a new outer object.
+- Inner (nested) objects are shared.
+- Changes in nested objects affect both copies.
+
+Syntax:
+
+    import copy
+
+    copy.copy(object)
+
+Example:
+
+    list2 = copy.copy(list1)
+
+===================================================================================================================
+3. Deep Copy
+===================================================================================================================
+
+- Deep Copy creates a completely independent copy.
+- Both outer and inner objects are copied.
+- Changes in the original object do not affect the copied object.
+
+Syntax:
+
+    import copy
+
+    copy.deepcopy(object)
+
+Example:
+
+    list2 = copy.deepcopy(list1)
+
+===================================================================================================================
+4. Difference
+===================================================================================================================
+
+Shallow Copy
+
+- Copies only outer object
+- Nested objects are shared
+- Faster
+- Less memory
+
+Deep Copy
+
+- Copies complete object
+- Nested objects are independent
+- Slower
+- More memory
+
+===================================================================================================================
+When to Use
+===================================================================================================================
+
+Use Shallow Copy
+
+- Simple lists
+- No nested objects
+
+Use Deep Copy
+
+- Nested lists
+- Nested dictionaries
+- Complex data structures
+
+===================================================================================================================
+Viva Points
+===================================================================================================================
+
+- copy.copy() -> Shallow Copy
+- copy.deepcopy() -> Deep Copy
+- Shallow Copy -> Shares nested objects
+- Deep Copy -> Creates independent objects
+- Deep Copy uses more memory than Shallow Copy
