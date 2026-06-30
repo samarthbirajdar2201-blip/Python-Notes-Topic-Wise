@@ -8,8 +8,11 @@ class Student:
         self.name = name
 
     def display(self):
-        print("Name :", self.name)
+        print("Welcome :", self.name)
 
 obj = Student("Sam")
 
-obj.display()
+obj.display()      
+
+
+ 
